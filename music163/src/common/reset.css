@@ -1,0 +1,30 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,table,tr,th,td,select{margin:0;padding:0}
+body{font:12px "微软雅黑","宋体";-webkit-text-size-adjust:100%;height: 100%;}
+a{color:#172c45;text-decoration:none;outline: none;cursor: pointer;}
+a:hover{color:#cd0200;text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+i{
+  font-style: normal;
+  display: inline-block;
+}
+input{
+  outline: none;
+  border: none;
+}
+.clearFix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+table {
+  border: none;
+	border-collapse: collapse;
+  border-spacing: 0;
+}
+tr,th,td{
+  border: none;
+}
